@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Checkers</string>
+    <string name="btnOneGame">One Player</string>
+    <string name="btnTwoGame">Two Players</string>
+</resources>
