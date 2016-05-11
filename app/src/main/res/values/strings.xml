@@ -2,4 +2,6 @@
     <string name="app_name">Checkers</string>
     <string name="btnOneGame">One Player</string>
     <string name="btnTwoGame">Two Players</string>
+    <string name="txtView1">White: </string>
+    <string name="txtView2">Black: </string>
 </resources>

@@ -4,26 +4,47 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/wood"
+    android:padding="15sp"
     >
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:id="@+id/imageView"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/logo" />
+        android:src="@drawable/logo"
+        android:layout_weight="2"
+        android:layout_margin="10sp"/>
 
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:text="@string/btnOneGame"
         android:id="@+id/button"
-        android:layout_gravity="center_horizontal" />
+        android:background="@drawable/one_player_btn_selector"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:layout_weight="4"
+        android:textColor="@color/MyBlue"
+        android:layout_margin="10sp"
+        android:textSize="25sp"/>
 
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:text="@string/btnTwoGame"
         android:id="@+id/button2"
-        android:layout_gravity="center_horizontal" />
+        android:textSize="25sp"
+        android:padding="20sp"
+        android:textColor="@color/MyBlue"
+        android:background="@drawable/one_player_btn_selector"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="4"
+        android:layout_margin="10sp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"/>
 </LinearLayout>

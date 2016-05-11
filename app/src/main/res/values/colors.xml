@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="MyGreen">#ff278208</color>
+    <color name="MyBrown">#f08c4e07</color>
+    <color name="MyBlue">#ff1f8fa3</color>
+    <color name="WhiteBrown">#fffff992</color>
+    <color name="MyGrey">#a8080808</color>
+    <color name="MyGreyLight">#780c0c0c</color>
 </resources>

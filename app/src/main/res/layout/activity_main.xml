@@ -2,14 +2,40 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wood">
+    android:background="@drawable/wood"
+    android:padding="20sp">
 
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/txtView1"
+        android:textSize="32sp"
+        android:textColor="@android:color/white"
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="7"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/txtView2"
+        android:textSize="32sp"
+        android:textColor="@android:color/white"
+        android:id="@+id/textView2"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="7"/>
 
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
-        android:id="@+id/main_l">
+        android:gravity="center"
+        android:id="@+id/main_l"
+        android:layout_weight="1">
 
         </TableLayout>
+
 </LinearLayout>
